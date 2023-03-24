@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
         <h3>
-        ©SIRIS
+        ©tailor.jobs
             
         </h3>
         <p>

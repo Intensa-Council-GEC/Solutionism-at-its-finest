@@ -10,7 +10,7 @@ function Procedures() {
             <div className={styles.div}>
                 <h2>Submit your resume</h2>
                 <p>We put your resume through our intelligent parser that has the ability to extract key skills from various parts of your resume</p>
-                <button>Sign up</button>
+                {/* <button>Sign up</button> */}
             </div>
           </div>
           <div className={styles.procedure}>

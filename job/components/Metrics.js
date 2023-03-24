@@ -9,7 +9,7 @@ function Metrics() {
             <img className={styles.img} src="/images/casual-life-3d-blue-graduation-hat.png"/>
             <div>
                 <h2>100+</h2>
-              <h4>Scholarships</h4>
+              <h4>Jobs</h4>
             </div>
               
           </div>
@@ -17,7 +17,7 @@ function Metrics() {
             <img  className={styles.img} src="/images/casual-life-3d-wad-of-money-coins.png"/>
             <div>
                 <h2>10 Lakh+</h2>
-            <h4>Scholarship amount</h4>
+            <h4>Salary amounts</h4>
             </div>
             
         </div>
