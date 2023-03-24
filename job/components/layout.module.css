@@ -1,0 +1,539 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.navbar-nav{
+  padding-right: 1rem;
+ 
+}
+.navbar-nav li{
+  padding-right: 3rem;
+}
+.navbar-nav li button{
+  box-shadow: none;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.navbar-nav li input{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 0.5px solid rgb(182, 182, 182) ;
+}
+.navbar-nav .nav-item{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.267), rgb(0, 0, 0) ), url('/images/Untitled\ design\ \(9\).png');
+  background-size: cover;
+  background-position: 100% 50%;
+}
+.banner h1{
+  padding-top: 15%;
+  color: white;
+
+}
+.banner-para{
+  padding: 3rem;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 1rem;
+  width: 80%;
+  margin: auto;
+    margin-top: -10rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 26px -21px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 26px -21px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 26px -21px rgba(0,0,0,0.75);
+margin-bottom: 5rem;
+}
+.showcase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.showcase img {
+  width: 60%;
+  background: rgb(2,0,36);
+  background: rgb(141,161,255);
+  background: radial-gradient(circle, rgba(141,161,255,1) 0%, rgba(245,245,245,1) 58%);
+}
+
+.showcase div {
+  width: 50%;
+}
+
+.showcase h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.showcase p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.metrics {
+  width: 89%;
+  display: flex;
+  flex-direction: row;
+  /* background: rgb(84,51,255);
+    background: linear-gradient(8deg, rgba(84,51,255,0.227328431372549) 0%, rgba(32,189,255,0.4654236694677871) 50%, rgba(165,254,203,0.22452731092436973) 100%); */
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.metric div {
+  margin: auto;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 45px -32px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 45px -32px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 45px -32px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  padding-left: 3rem;
+  margin-left: -3rem;
+}
+
+.metric h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.metric h4 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.metric img {
+  height: 5rem;
+  z-index: 2;
+}
+
+.info-para{
+  width: 75%;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 26px -21px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 26px -21px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 26px -21px rgba(0,0,0,0.75);
+margin-bottom: 3rem;
+margin-top: 2rem;
+}
+.info-para .point{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 3rem;
+  
+}
+.point div{
+  width: 60%;
+}
+.point img{
+  height: 10rem;
+
+}
+.point p{
+  font-weight: 300;
+}
+.procedure-title{
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+.procedures {
+  margin: auto;
+  width: 80%;
+  margin-top: 3rem;
+}
+
+.procedure {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.procedure div {
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  padding: 3rem;
+  margin-left: -20%;
+  padding-left: 21%;
+  box-shadow: 10px 10px 63px -24px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 63px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 63px -24px rgba(0, 0, 0, 0.75);
+  border-radius: 2rem;
+  height: max-content;
+  width: 60%;
+}
+
+.procedure img {
+  height: 30rem;
+  z-index: 2;
+
+}
+.procedure img {
+  height: 30rem;
+  z-index: 2;
+  margin-right: -15%;
+}
+.procedure h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.procedure p {
+  font-size: 1rem;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.procedure:nth-child(2) div {
+  background: #00b4db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: initial;
+  padding-left: 3rem;
+  margin-right: -20%;
+  padding-right: 20%;
+}
+
+.procedure:nth-child(2) p {
+  width: 100%;
+}
+
+.procedure:nth-child(1) button {
+  background-color: rgb(255, 123, 0);
+}
+
+.procedure:nth-child(2) button {
+  background-color: rgb(0, 140, 255);
+}
+
+.procedure:nth-child(2) h2 {
+  width: 150%;
+  font-size: 2rem;
+}
+
+.procedure:nth-child(3) div {
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 70%;
+  height: 20rem;
+  margin-left: -20%;
+  padding-left: 10%;
+}
+.procedure:nth-child(3) img
+{
+  margin-right: 1rem;
+}
+.nav{
+  position: static;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 0.5px solid rgb(226, 226, 226);
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  padding: 2rem;
+  
+
+}
+.footer h3
+{
+  padding: 0%;
+  margin: 0%;
+  width: 50%;
+  font-size: 1.1rem;
+}
+.footer p
+{
+  padding: 0%;
+  margin: 0%;
+  font-size: 1.1rem;
+}
+.about
+{
+  font-size: 1.1rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 2rem;
+  -webkit-box-shadow: 10px 10px 46px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 46px -17px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 46px -17px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.logoutButton
+{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(15, 120, 240);
+}
+
+
+
+.jobsContainer
+{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+
+
+}
+.jobMain{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  padding-top: 1rem;
+}
+.job
+{
+  display: flex;
+  width: 60rem;
+  height: 30rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  -webkit-box-shadow: 10px 10px 44px -17px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 44px -17px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 44px -17px rgba(0,0,0,0.75);
+  word-wrap: break-word;
+}
+
+.job h2
+{
+  font-size: 1.8rem;
+}
+.job h3{
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+  
+}
+.job h4
+{
+  margin-top: 0.5rem;
+  color: grey;
+  font-size: 1.1rem;
+}
+.job p{
+  font-size: 1rem;
+}
+.job .tags
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+}
+.job .tags .tag
+{
+  font-size: 1rem;
+  padding: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: #a1ddff;
+  border-radius: 0.4rem;
+  margin: 0.2rem;
+
+
+}
+.job .location
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+
+
+}
+.job .location img
+{
+  height: 2rem;
+}
+.job .location h5
+{
+  margin-top: 1rem;
+
+  font-size: 1rem;
+  font-weight: 300;
+}
+.applynow
+{
+  position: sticky;
+  bottom: -1rem;
+  font-size: 1.2rem;
+  
+  text-decoration: none;
+  text-align: center;
+  width: 109%;
+  padding:1.5rem;
+  text-align: center;
+  background-color: #0051b5;
+  margin-left: -1rem;
+  margin-top: 1rem;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem ;
+
+}
+.applynow:hover
+{
+  color: rgb(211, 211, 211);
+}
+
+.searchContainer
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 9rem;
+
+}
+.searchbox
+{
+  margin: auto;
+  text-align: center;
+  color: grey;
+  border-radius: 1rem;
+  border: 2px solid rgba(54, 54, 192, 0.24);
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.navImg
+{
+  height: 4rem;
+  border-radius: 1rem;
+}
+.hero
+{
+  height:100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% ;
+  background-image: url("../public/images/prime-how-to-choose-the-best-adventure-travel-tour-companies-1504752924.jpg");
+}
+
+.hero h1{
+  filter: brightness(200%);
+  width: 50rem;
+  color: rgb(112, 225, 250);
+  margin-right: 3rem;
+  padding-top: 2.2rem;
+  text-align: left;
+}
+
+.query
+{
+  width:20rem;
+  margin: auto;
+  margin: 1rem;
+
+}
+.queryForm
+{
+  font-size: 1rem;
+}
+.queryForm select
+{
+  font-size: 1rem;
+  margin: 1rem;
+
+}
+.queryForm input
+{
+  font-size: 1rem;
+  margin: 1rem;
+
+}
